@@ -1,3 +1,3 @@
 # mayita-manager
 
-Hecho con ❤️  para M.
+Hecho con ❤️   para M.
