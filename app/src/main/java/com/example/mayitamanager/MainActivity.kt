@@ -25,4 +25,25 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+
+    /** Called when the user taps the Customer button */
+    fun goToCustomers(view: View){
+        val intent = Intent(this, CustomerActivity::class.java)
+        startActivity(intent)
+
+    }
+
+    /** Called when the user taps the Orders button */
+    fun goToOrders(view: View){
+        val intent = Intent(this, OrderActivity::class.java)
+        startActivity(intent)
+    }
+
+    /** Called when the user taps the Stats button */
+    fun goToStats(view: View){
+        val intent = Intent(this, StatActivity::class.java)
+        startActivity(intent)
+    }
+
+
 }

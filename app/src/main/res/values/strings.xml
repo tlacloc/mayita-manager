@@ -1,5 +1,28 @@
 <resources>
-    <string name="app_name">mayitaManager</string>
+
+    <!--- Activities title -->
+    <string name="app_name">Mayita Manager</string>
+    <string name="title_activity_customer">Customers</string>
+    <string name="title_activity_order">Orders</string>
+    <string name="title_activity_stat">Stats</string>
+
+    <!-- Strings used in MainActivity -->
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
+    <string name="add_order">New order</string>
+    <string name="customer_name">Customer name: </string>
+    <string name="add_customer">Enter customer name</string>
+    <string name="button_customers">Customers</string>
+    <string name="button_orders">Orders</string>
+    <string name="button_stats">Stats</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

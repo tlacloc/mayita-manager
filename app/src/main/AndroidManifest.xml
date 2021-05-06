@@ -10,23 +10,60 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MayitaManager">
 
-        <!--  DisplayMessageActivity  -->
-        <activity android:name=".DisplayMessageActivity"
+        <!-- StatActivity -->
+        <activity
+            android:name=".StatActivity"
+            android:label="@string/title_activity_stat"
             android:parentActivityName=".MainActivity">
+
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
 
-        <!--  MainActivity  -->
+        <!-- OrderActivity -->
+        <activity
+            android:name=".OrderActivity"
+            android:label="@string/title_activity_order"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- CustomerActivity -->
+        <activity
+            android:name=".CustomerActivity"
+            android:label="@string/title_activity_customer"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- DisplayMessageActivity -->
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- MainActivity -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
