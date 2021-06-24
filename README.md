@@ -1,6 +1,7 @@
 # Mayita Manager
 
-Hecho con ❤️
+Hecho con ❤️.
+
 para M.
 
 
